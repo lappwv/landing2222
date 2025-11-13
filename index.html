@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hasma, Cuida tu respiración.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="30" width="" src="inhaler2.png" alt="" />
+      </a>
+      <h1>HSMA</h1>
+      <ul class="Menu-Horizontal">
+        <li>
+          <a href="">Información</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Qué es el asma</a></li>
+            <li><a href="">Síntomas comunes</a></li>
+            <li><a href="">Factores de riesgo</a></li>
+            <li><a href="">Consejos de prevención</a></li>
+          </ul>
+        </li>
+        <li><a href="">Nuestra App</a></li>
+        <li><a href="">Testimonios</a></li>
+        <li><a href="contactanos.html">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--seccion productos-->
+
+    <section class="que-es">
+      <div class="div-gral">
+        <div class="div-texto">
+          <h2>Que es HSMA?</h2>
+          <p>
+            HSMA es una herramienta digital creada para ayudarte a monitorear y
+            controlar tus síntomas de asma. Te permite registrar tus crisis,
+            recibir recordatorios de medicación y acceder a recomendaciones
+            médicas personalizadas que mejoran tu calidad de vida
+          </p>
+        </div>
+        <div class="div-img">
+          <img
+            width="1000"
+            src="depositphotos_320793056-stock-photo-relaxed-man-breathing-deep-fresh.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <!--seccion 2-->
+    <section class="aprende">
+      <div class="div-gral">
+        <div class="div-texto">
+          <h2>Aprende a controlar tu asma</h2>
+          <p>
+            Con HSMA puedes conocer más sobre los factores que desencadenan tus
+            síntomas, aprender a reconocer señales de alerta y seguir rutinas de
+            respiración que fortalecen tu sistema pulmonar. Mira el siguiente
+            video informativo y empieza hoy a cuidar de ti.
+          </p>
+        </div>
+        <div class="div-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/PzfLDi-sL3w?si=2NJV0dGChGHVpuOv"
+            title="Consejos para controlar el asma"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario de contacto de clientes</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario-contacto">
+          <!--input-->
+          <div class="campo">
+            <label for="nombre">Nombres completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+            <label for="DNI">DNI:</label>
+            <input
+              type="text"
+              id="DNI"
+              name="DNI"
+              placeholder="Ingrese su DNI"
+            />
+            <label for="Teléfono">Telefono:</label>
+            <input
+              type="text"
+              id="telefono"
+              name="telefono"
+              placeholder="Ingrese su teléfono"
+            />
+          </div>
+          <!--menu-desplegable-->
+          <div class="campo">
+            <label for="País">País:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione su país de residencia:</option>
+              <option value="">Perú</option>
+              <option value="">Colombia</option>
+              <option value="">Argentina</option>
+              <option value="">Ecuador</option>
+            </select>
+          </div>
+          <!--checkbox-->
+          <div class="campo">
+            <label>Reclamo:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="No me funciona la app"
+                  />No me funciona la app</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="La app es confusa"
+                  />La app es confusa</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="No me puedo comunicar con mi médico"
+                  />No me puedo comunicar con mi médico</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="Las notificaciones de dosis a veces no llegan"
+                  />Las notificaciones de dosis a veces no llegan</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="Masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="Femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="inhaler2.png" alt="Logo" class="footer-logo" />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

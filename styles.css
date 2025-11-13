@@ -1,0 +1,219 @@
+body {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+    background: linear-gradient(to right, #eefbfa, #fcf3f6)
+
+}
+
+.logo{
+  margin-left: 5%;
+}
+
+.topheader {
+  left:0;
+  padding:1.25rem;
+  top: 0;
+  margin-bottom: 0.625rem;
+  margin: 0;
+  font-size: 0.938rem;
+  position: fixed;
+  background-color: rgb(237, 224, 251);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.156rem;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  display: block;
+  text-decoration: none;
+}
+
+.Menu-Horizontal li:hover {
+  color: green;
+}
+
+.Menu-Horizontal li{
+  font-weight: bold;
+}
+.Menu-Vertical {
+  padding: 0.625rem;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 9.375rem;
+  background-color: white;
+}
+
+.Menu-Vertical li a:hover {
+  color: red;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Vertical li a {
+  padding: 0.938rem 0.938rem 0.938rem 0.938rem;
+}
+
+h1 {
+  color: rebeccapurple;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topheader h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.25rem;
+}
+
+.div-gral {
+  padding-top: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 4.688rem;
+}
+
+.div-texto {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.div-texto p {
+  width: 31.25rem;
+  text-align: justify;
+  margin-bottom: 0.938rem;
+  color:rgb(63, 57, 72)
+}
+
+.div-texto h2 {
+  margin-bottom: 0.938rem;
+  color: rebeccapurple;
+}
+.que-es,
+.aprende {
+  padding: 6.25rem 6.25rem 6.25rem 6.25rem;
+}
+
+.div-img,
+.div-video {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* centra contenido dentro del contenedor */
+  align-items: center;
+}
+
+.div-img img {
+  display: block;
+  position: center;
+  width: 100%;
+  max-width: 62.5rem;
+  border-radius: 0.625rem;
+  margin: 0 auto;
+}
+
+.div-video iframe {
+  display: block;
+  position: center;
+  width: 100%;
+  max-width: 31.25rem;
+  border-radius: 1.25rem;
+  margin: 0 auto;
+}
+
+.productos2 {
+  margin-left: 12.5rem;
+}
+
+.formulario {
+  padding:6.25rem;
+  display: flex;
+  flex-direction: column;
+  width:18.75rem;
+  margin: 0 auto;
+
+}
+
+
+.div-texto h2{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;          /* Tamaño grande para el logo */
+  letter-spacing: 0.25rem;    /* Espaciado entre letras */
+  color: rebeccapurple;           /* Azul o color de tu marca */
+  text-transform: uppercase; /* Pone todas las letras en mayúsculas */
+}
+
+.seccion-formulario{
+background-color: #dbfffc;
+padding:2.5rem;
+border: 0.188rem;
+display:flex;
+justify-content:center;
+margin-bottom: 2.5 rem;
+}
+.div-cont-formulario{
+  background-color: rgb(255, 243, 243);
+  padding: 3.125rem;
+  border:0.063rem solid rgb(255, 156, 156)
+  border-radius:0.625rem;
+}
+
+.campo{
+  padding:3.125rem;
+  margin-bottom:0.938rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 185, 185);
+}
+
+.formulario-contacto label{
+  display:block;
+  font-weight: bolder;
+  margin-bottom:0.75rem;
+  margin-top:0.75rem;
+  color:rgb(65, 65, 65)
+}
+
+.formulario-contacto input[type="text"], .formulario-contacto select{
+
+  width: 90%;
+  padding:0.625rem;
+  border:0.063rem solid rgb(255, 255, 255);
+  border-radius: 0.313rem;
+}
+
+.lista-checkbox, .lista-radio{
+  list-style: none;
+  padding: 0.625rem;
+  margin:0;
+  border:0.063rem;
+  background-color:rgb(255, 255, 255);
+  border-radius:0.313rem;
+}
+
+button{
+  background-color: rgb(255, 255, 202);
+  border-width: 0.063rem;
+  border-color: rgb(202, 202, 159);
+  padding: 0.625rem 1.25rem
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.lista-checkbox input{
+  margin-right: 0.625rem;
+}
+
+button:hover{
+  color:blue;
+}
