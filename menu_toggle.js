@@ -13,3 +13,4 @@ btn.addEventListener("click", () => {
   // (opcional) También puedes alternar una clase en el botón si quieres cambiar su apariencia
   // btn.classList.toggle("open");
 });
+
